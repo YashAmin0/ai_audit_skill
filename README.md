@@ -1,4 +1,4 @@
-# AI Audit Skill — Claude Code
+# AI Audit Skill
 
 A Claude Code skill that audits your AI tool stack, cuts the overlap, and returns the focus time that tool-switching is silently consuming.
 
