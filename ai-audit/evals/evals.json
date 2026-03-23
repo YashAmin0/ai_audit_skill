@@ -1,0 +1,23 @@
+{
+  "skill_name": "ai-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need help figuring out which AI tools I actually need. I'm using ChatGPT, Claude, Gemini, Perplexity, Notion AI, Otter.ai, Midjourney, Copy.ai, and Grammarly. My three biggest daily tasks are: writing blog posts for our SaaS product, drafting client onboarding emails, and doing competitive research on other tools in our space.",
+      "expected_output": "A structured audit identifying overlaps (ChatGPT + Claude + Gemini + Copy.ai all overlap on writing tasks), a reduced stack of 3-4 tools max, a daily structure, and a specific time-saved estimate.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you audit my AI setup? I've got Claude, ChatGPT, GitHub Copilot, and Notion AI. Every day I'm mostly writing internal technical documentation, doing code reviews, and sending weekly status updates to stakeholders.",
+      "expected_output": "Audit identifying that Claude and ChatGPT overlap on writing tasks, Copilot clearly owns code-related work. Reduced stack should be 2-3 tools. Status updates may be flagged as a task where AI adds limited value. Clean daily structure around coding and writing blocks.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I only use Claude and Otter.ai. My main work is drafting marketing copy for campaigns, transcribing and summarizing client calls, and analyzing survey data from customers. Do I need more tools or am I good?",
+      "expected_output": "Audit confirms this is a lean, well-structured stack. Claude owns copy and data analysis, Otter owns transcription. No cuts needed. Output should be brief, direct, and not manufacture problems.",
+      "files": []
+    }
+  ]
+}
